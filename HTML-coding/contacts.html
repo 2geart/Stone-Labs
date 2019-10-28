@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Contact</title>
+	<link rel="stylesheet" href="./app/css/jquery.flipster.css">
+    <link rel="stylesheet" href="./app/css/app.css">
+    <link rel="stylesheet" href="./app/css/apply-form.css"> <!--Styles for Input -->
+    <link rel="stylesheet" href="./app/css/contacts.css">
+</head>
+<body>
+		<section id="applyForm_header" class="header title-only header-wave-1 header-wave-2 header-wave-3 header-static">
+    <div class="mobile-menu-fixed">
+        <div class="container navbar-container">
+            <div class="top-line">
+                <a class="navbar-brand d-flex align-items-center" href="/">
+                    <img class="img-fluid" src="/img/Logo_stone_labs-red.svg" alt="logo-mobile" />
+                </a>
+                <a href="#" class="close-button">
+                    <img src="/img/close-popup-icon.svg" alt="close-button">
+                </a>
+            </div>
+            <div class="mobile-menu-wrapper">
+                <ul class="mobile-menu">
+                    <li class="mobile-nav-item">
+                        <div class="mobile-dropdown-wrapper">
+                            <div class="mobile-dropdown-item-toggler">
+                                <a href="#">Services<i class="fas fa-chevron-down"></i></a>
+                                <div class="mobile-dropdown-menu">
+                                    <a href="/sport-dev.html" class="mobile-dropdown-item">Sport Dev</a>
+                                    <a href="/product-dev.html" class="mobile-dropdown-item">Product Dev</a>
+                                    <a href="/outsourcing.html" class="mobile-dropdown-item">Outsourcing</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="mobile-nav-item">
+                        <a href="/showcases-catalog.html">Showcases</a>
+                    </li>
+                    <li class="mobile-nav-item">
+                        <a href="#">Approach</a>
+                    </li>
+                    <li class="mobile-nav-item">
+                        <a href="/blog.html"> Blog</a>
+                    </li>
+                    <li class="mobile-nav-item">
+                        <a href="/contacts.html">Contacts</a>
+                    </li>
+                </ul>
+                <div class="mobile-nav-item-button">
+                    <a class="btn" href="#">Send Inquiry</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container navbar-container applyForm_navbar">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand d-flex align-items-center" href="/">
+                <img src="./assets/svg/Logo_stone_labs-white.svg" alt="logo">
+            </a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <div class="dropdown-item-wrapper">
+                            <div class="top-dropdown-item">
+                                <a class="nav-item dropdown-link" href="#">
+                                    Services<i class="fas fa-chevron-down"></i>
+                                </a>
+
+                                <div class="nav-dropdown-menu">
+                                    <a href="/sport-dev.html" class="nav-dropdown-item">Sport Dev</a>
+                                    <a href="/product-dev.html" class="nav-dropdown-item">Product Dev</a>
+                                    <a href="/outsourcing.html" class="nav-dropdown-item">Outsourcing</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item" href="/showcases-catalog.html">Showcases</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item" href="#">Approach</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item" href="/blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item" href="/contacts.html">Contacts</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-item-button">
+                <a class="btn" href="#">Send Inquiry</a>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+                    aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+    </div>
+
+    <div class="page-title-wrapper applyForm_title">
+        <h1 class="page-title page-title-contacts">Get In Touch</h1> 
+        <h4 class="page-subtitle">Have questions about how Stone Labs can help you streamline operations and improve performance? <br> Feel free to ask us. </h4>
+    </div>
+</section>
+
+
+<section id="form">
+	<div class="container container_applyForm">
+		<div class="form_wrapper form_wrapper_contacts">
+
+			<div class="form">
+				<div class="form_general">
+					<form id="form_first" method="post">
+                        
+
+                        <div class="inputs-margin inputs_contacts">
+                            <div class="wrapper4-animate-input wrapper_contacts">
+                                <input id="input-name" class="general_input" type="text" name="name"/>
+                                <span class="placeholder-animate">Name</span>
+                                <p class="error error-name"></p>        
+                            </div>
+                            
+                             
+                            <div class="wrapper4-animate-input wrapper_contacts">
+                                <input id="input-email" class="general_input" type="text" name="email">
+                                <span class="placeholder-animate">Email</span>
+                                <p class="error error-email"></p>
+                            </div>
+                        </div>
+
+						<div class="inputs-margin wrapper_textarea_contacts">
+                            <div class="wrapper4-animate-textarea wrapper4-animate-contacts">
+                                <textarea id="exampleFormControlTextarea1" class="general_textarea" type="text" name="more"  rows="3"></textarea>
+                                <span class="placeholder-animate placeholder-animate-textarea">Tell us how we can help</span>
+                            </div>
+  						</div>
+
+					
+  							<div class="form-check checkbox_rules">
+                                <input class="form-check-input is-invalid checkbox-custom invalidCheck" type="checkbox" value="" id="invalidCheck">
+                                <label class="form-check-label" for="invalidCheck"></label>
+                                <span>I have read and accepted Stone Labs <a href="">Privacy Policy</a></span>
+                            </div>
+
+                            <div class="form-check checkbox_rules">
+                               
+                                <input class="form-check-input is-invalid checkbox-custom invalidCheck2" type="checkbox" value="" id="invalidCheck2">
+                                <label class="form-check-label" for="invalidCheck2"></label>
+                                <span>I accept <a href="">the Data Processing Rules of Stone Labs</a></span>
+                            </div>
+							  
+							<div class="button_submit">
+                                <button type="submit" class="btn btn-dark btn_submit" disabled>Send</button>
+                            </div>
+
+					</form>
+
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<footer class="footer-wave-1 footer-wave-2 footer-wave-3">
+    <div class="container inner-container inner-container-contacts">
+        <div class="footer-inquiry-contacts row m-0">
+        	<div class="col-6 tower-contacts">
+        		<img class="img-fluid" src="/assets/svg/vilnius gedimino icon.svg" alt="vilnius">
+        	</div>
+        	<div class="col-6 contact_data">
+        		<h3 class="contacts_location">Vilnus</h3>
+        		<h4 class="contacts_gmt">GMT +01:00</h4>
+        		<h3 class="contacts_timer">01:19:47 PM</h3>
+        		<h4 class="contacts_adress">Geniu 21-10 <br> Vilnius, Lithuania <br> LT-11216</h4>
+        		<h4 class="contacts_telephone">+370 608 46 481</h4>
+        	</div>
+        </div>
+    </div>
+    <div class="container footer-info-container">
+        <div class="footer-wrapper">
+            <div class="logo-socials">
+                <div class="footer-logo">
+                    <img src="/assets/svg/stone-labs-logo-white.svg" alt="footer-logo">
+                </div>
+                <div class="footer-socials">
+                    <a href="#"><img src="/assets/svg/footer-facebook-icon.svg" alt="facebook-footer-logo"></a>
+                    <a href="#"><img src="/assets/svg/footer-linkedin-icon.svg" alt="linkedin-footer-logo"></a>
+                    <a href="#"><img src="/assets/svg/footer-twitter-icon.svg" alt="twitter-footer-logo"></a>
+                    <a href="#"><img src="/assets/svg/footer-skype-icon.svg" alt="skype-footer-logo"></a>
+                    <a href="#"><img src="/assets/svg/footer-github-icon.svg" alt="github-footer-logo"></a>
+                </div>
+            </div>
+            <div class="footer-nav">
+                <a href="#" class="footer-nav-link">Home</a>
+                <a href="#" class="footer-nav-link">Approach</a>
+                <a href="#" class="footer-nav-link">Services</a>
+                <a href="#" class="footer-nav-link">Blog</a>
+                <a href="#" class="footer-nav-link">Showcases</a>
+                <a href="#" class="footer-nav-link">Contacts</a>
+            </div>
+            <div class="footer-contacts-wrapper">
+                <div class="footer-contacts-left">
+                    <span class="footer-address">
+                        Geniu 21-10
+                    </span>
+                    <span class="footer-address">
+                        Vilnius
+                    </span>
+                    <span class="footer-address">
+                        Lithuania, LT-11216
+                    </span>
+                </div>
+                <div class="footer-contacts-right">
+                    <a href="mailto:info@stone-labs.com"
+                       class="footer-contact-link footer-email">info@stone-labs.com</a>
+                    <a href="tel:+37060846481" class="footer-contact-link footer-phone">+370 608 46 481</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyrights">
+            <div class="copyright">
+                &copy; 2009-2019 Stone Labs
+            </div>
+            <div class="privacy">
+                <a href="#" class="privacy-link">
+                    Privacy Policy
+                </a>
+                <a href="#" class="privacy-link">
+                    Sitemap
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="./app/js/app.js"></script>
+		<script src="./app/js/owl.carousel.min.js"></script>
+		<script src="./app/js/owl.animate.js"></script>
+		<script src="./app/js/owl.autoheight.js"></script>
+		<script src="./app/js/jquery.flipster.min.js"></script>
+		<script src="./app/js/menu_fixed.js"></script>
+        <script src="./app/js/form.js"></script>
+</body>
+</html>

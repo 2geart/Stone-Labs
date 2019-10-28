@@ -1,0 +1,295 @@
+/*Approach*/
+
+#approach {
+  background-image: url("../img/bg-cloud-4.svg"), url("../img/bg-cloud-4-top.svg");
+  background-position: 0 -55%, 395px 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 100px 0 0;
+  margin: -140px 0 60px 0;
+}
+
+.page-title {margin-bottom: 25px;}
+
+.page-subtitle {
+    margin: 0 auto;
+    max-width: 910px;
+    line-height: 1.6;
+}
+
+.approach-container {
+    margin: 0 auto 80px;
+    padding: 50px 0 0 0;
+    max-width: 1256px;
+}
+
+.approach-main-content-wrapper {
+  margin: 0 auto;
+  width: 100%;
+  background-image: url("../assets/svg/arrow short red.svg"), url("../assets/svg/arrow short red.svg"), 
+  url("../assets/svg/arrow long red.svg"), url("../assets/svg/arrow short red.svg"), 
+  url("../assets/svg/arrow short red.svg"), url("../assets/svg/arrow long red 2.svg"), 
+  url("../assets/svg/arrow_scrum_1440.svg");
+  background-repeat: no-repeat;
+  background-position: 217px 290px, 217px 620px, 300px 930px, 437px 1280px, 
+  437px 1610px, 300px 1920px, 0px 1150px;
+}
+
+.approach-main-step-item {
+  margin: 0 auto;
+  max-width: 1080px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.approach_img_step-pos {
+  right: 0!important;
+  width: 275px;
+  max-height: 330px;
+}
+
+.approach-main-step-text {
+  padding: 0 0 0 50px ;
+  max-width: 748px;
+  font-size: 20px;
+  line-height: 1.6;
+  color: #232323;
+  box-sizing: content-box;
+}
+
+.approach-step-sub_title {
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1.4px;
+  color: #ef1c3b;
+}
+
+.approach-main-step-title {
+  margin-bottom: 15px;
+  font-size: 48px;
+  line-height: 0.75;
+  color: #0497f4;
+}
+
+.approach-main-step-item:nth-child(1n+4) {
+   margin: 0;
+   max-width: 860px;
+   left: 308px;
+}
+
+.approach-main-step-item:nth-child(7) {
+  margin: 0 auto;
+  max-width: 1080px;
+  left: 0px;
+}
+
+.approach-main-step-text-short {max-width: 528px;}
+
+
+
+
+/*1024 -> 1439*/
+@media (max-width: 1439px) { 
+
+    .approach-main-content-wrapper {
+        background-image: url("../assets/svg/arrow short red.svg"), url("../assets/svg/arrow short red.svg"), 
+  url("../assets/svg/arrow long red.svg"), url("../assets/svg/arrow short red.svg"), 
+  url("../assets/svg/arrow short red.svg"), url("../assets/svg/arrow long red 2.svg"), 
+  url("../assets/svg/arrow_scrum_1024.svg");
+        background-position: 130px 290px, 130px 620px, 213px 930px, 287px 1300px, 
+        287px 1630px, 145px 1935px, 0px 1165px;
+    }
+
+    .navbar-container {margin-bottom: 40px;}
+
+    .page-title {margin-bottom: 25px;}
+
+    .page-subtitle {
+        max-width: 784px;
+        font-size: 20px;
+    }
+
+    .approach-container {
+        padding-top: 90px;
+        max-width: 940px;
+    }
+
+    .approach-main-step-item {max-width: 940px;}
+
+    .approach-main-step-text {
+        padding: 0 0 0 45px ;
+        max-width: 619px;
+    }
+
+    .approach-main-step-title {
+        font-size: 40px;
+        line-height: 0.9;
+    }
+
+    .approach-main-step-item:nth-child(4) { padding-top: 15px;}
+
+    .approach-main-step-item:nth-child(1n+4) {
+        max-width: 785px;
+        left: 155px;
+    }
+
+    .approach-main-step-item:nth-child(7) {
+        padding-top: 15px;
+        max-width: 940px;
+        left: 0px;
+    }
+
+    .approach-main-step-text-short {max-width: 460px;}
+
+}
+
+/*768 -> 1023*/
+@media (max-width: 1023px) {
+
+    .approach-main-content-wrapper {
+        background-image: url("../assets/svg/arrow short red-768.svg"), url("../assets/svg/arrow short red-768.svg"), 
+  url("../assets/svg/arrow short red diag-768.svg"), url("../assets/svg/arrow short red-768.svg"), 
+  url("../assets/svg/arrow short red-768.svg"), url("../assets/svg/arrow short red diag 2-768.svg"), 
+  url("../assets/svg/arrow_scrum_768.svg");
+        background-position: 137px 257px, 137px 547px, 150px 840px, 212px 1127px, 
+        212px 1417px, 180px 1710px, 0px 1005px;
+    }
+
+    .page-title {
+        margin-bottom: 20px;
+        font-size: 32px;
+    }
+
+    .page-subtitle {
+        max-width: 600px;
+        font-size: 18px;
+        line-height: 1.56;
+    }
+
+    .approach-container {
+        padding-top: 70px;
+        max-width: 724px;
+    }
+
+    .approach-main-step-item {
+        padding-left: 27px;
+        max-width: 724px;
+    }
+
+    .approach_img_step-pos {
+        width: 240px;
+        height: 290px;
+    }
+
+    .approach_img_step-pos img{
+        width: 90px;
+        height: 110px;
+    }
+
+    .approach-main-step-text {
+        padding: 0 0 0 30px ;
+        max-width: 413px;
+        font-size: 18px;
+    }
+
+    .approach-main-step-title {
+        font-size: 30px;
+        line-height: 1.2;
+    }
+
+    .approach-main-step-item:nth-child(4) { padding-top: 0;}
+
+    .approach-main-step-item:nth-child(1n+4) {
+        max-width: 649px;
+        left: 75px;
+    }
+
+    .approach-main-step-item:nth-child(7) {
+        padding-top: 0;
+        max-width: 724px;
+        left: 0px;
+    }
+
+    .approach-main-step-text-short {max-width: 350px;}
+
+}
+
+
+/*320 -> 768*/
+@media (max-width: 767px) {
+
+    .approach-main-content-wrapper {
+        background-image: url("../assets/svg/arrow short red - 320.svg"), url("../assets/svg/arrow short red - 320.svg"), 
+  url("../assets/svg/arrow short red diag - 320.svg"), url("../assets/svg/arrow short red - 320.svg"), 
+  url("../assets/svg/arrow short red - 320.svg"), url("../assets/svg/arrow short red diag 2 -320.svg"), 
+  url("../assets/svg/arrow_scrum_320.svg");
+        background-position: 143px 425px, 143px 945px, 150px 1415px, 163px 1910px, 
+        163px 2380px, 143px 2845px, 0px 1575px;
+    }
+
+    .page-title {
+        margin-bottom: 15px;
+        font-size: 26px;
+    }
+
+    .page-subtitle {
+        max-width: 302px;
+        font-size: 16px;
+        line-height: 1.56;
+    }
+
+    .approach-container {
+        padding-top: 100px;
+        max-width: 302px;
+    }
+
+     .approach-main-step-item {
+        display: block;
+        margin-bottom: 90px;
+        padding-left: 0;
+        max-width: 302px;
+    }
+
+    .approach_img_step-pos {
+        margin: 0 auto 15px;
+        width: 190px;
+        height: 190px;
+    }
+
+    .approach_img_step-pos img{
+        width: 74px;
+        height: 91px;
+    }
+
+    .approach-main-step-text {
+        padding: 0;
+        max-width: 302px;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .approach-main-step-content-padding {padding-left: 1px;}
+
+    .approach-main-step-title {
+        font-size: 24px;
+        line-height: 1.2;
+    }
+
+    .approach-step-sub_title {margin-bottom: 5px;}
+
+    .approach-main-step-item:nth-child(1n+4) {
+        margin-bottom: 90px;
+        max-width: 262px;
+        left: 40px;
+    }
+
+    .approach-main-step-item:nth-child(7) {
+        max-width: 302px;
+        left: 0px;
+    }
+
+    .approach-main-step-item:last-child {margin-bottom: 0;}
+
+}
